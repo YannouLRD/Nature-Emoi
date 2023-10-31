@@ -1,0 +1,81 @@
+@import url(https://fonts.google.com/specimen/Abril+Fatface?query=abril&sidebar.open&selection.family=Abril+Fatface);
+@import url(https://fonts.google.com/specimen/Montserrat?query=monts);
+* {
+  font-family: "Montserrat";
+}
+body {
+  margin: 0 auto;
+}
+/** top page **/
+header.header {
+  display: flex;
+  align-items: center;
+}
+header.header img {
+  width: 15vh;
+}
+section.top-page {
+  background: url("../images/bg.jpg");
+  background-size: cover;
+  padding: 2vh;
+  height: 50vh;
+}
+/** navbar **/
+nav.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 60vh;
+  margin-left: 20px;
+}
+nav.nav li {
+  color: white;
+}
+/** landing page **/
+.landing-page {
+  color: white;
+  padding: 20px 50px;
+  width: 40vh;
+  height: 38vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.landing-page .big-title {
+  font-size: 7vh;
+  font-family: "Abril FatFace", cursive;
+  font-weight: 100;
+}
+.landing-page a {
+  color: white;
+  text-decoration: none;
+}
+
+/* services */
+
+section.service {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5vh;
+}
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.delivery-icon {
+  font-size: 5vh;
+  color: #add981;
+}
+.service-detail {
+  font-weight: 600;
+  width: 26vh;
+  text-align: center;
+}
+
+/* Nos meilleurs ventes */
+.section-title {
+  font-family: 'Abril FatFace';
+  font-size: 50px;
+  font-weight: 100;
+}
