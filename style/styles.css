@@ -91,12 +91,12 @@ section.service {
   width: 50px;
   height: 7px;
   bottom: 0;
+  border-radius: 50px;
 }
 .bests-items {
   margin: 100px;
 }
 .best-plants {
-  background-color: red;
   min-height: 500px;
   display: flex;
   flex-wrap: wrap;
@@ -149,6 +149,9 @@ section.service {
 
 .all-plants {
   margin: 100px;
+}
+.plant-box {
+  margin: 15px;
 }
 .plant-grid {
   display: grid;
